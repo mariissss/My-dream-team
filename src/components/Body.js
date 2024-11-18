@@ -3,13 +3,23 @@ import React from "react";
 const Body = () => {
   return (
     <main style={styles.body}>
+	
       <div style={styles.card}>
         <img src={"/avatar.png"} alt="Ivan Oliinyk" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Ivan Oliinyk</h2>
           <p style={styles.position}>UI/UX Designer</p>
         </div>
-      </div>
+		</div>
+		
+		<div style={styles.card}>
+        <img src={"/OleksaAvatar.png"} alt="Oleksii Mahinskyi" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Oleksii Mahinskyi</h2>
+          <p style={styles.position}>Business analyst</p>
+		</div>
+        </div>
+		
     </main>
   );
 };
